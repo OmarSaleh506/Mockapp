@@ -1,8 +1,11 @@
 {
-	"name": "hw08",
-	"version": "1.0.0",
-	"main": "index.js",
-	"scripts": {
+  "name": "Mockapp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/OmarSaleh506/Mockapp.git",
+  "author": "OmarSaleh506 <amory2000338@gmail.com>",
+  "license": "MIT",
+  "scripts": {
 		"dev": "nodemon -r dotenv/config src/index.ts | pino-colada",
 		"build": "rm -rf dist && tsc",
 		"start": "node dist/index.js"
